@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rebec/Desktop/MLOpsChallenge/mslearn-mlops/src/model/mlruns/0/0adceb11909345b6a34d3a12c3dd28e5/artifacts
+end_time: 1691190771448
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0adceb11909345b6a34d3a12c3dd28e5
+run_name: peaceful-shad-710
+run_uuid: 0adceb11909345b6a34d3a12c3dd28e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691190755652
+status: 3
+tags: []
+user_id: rebec

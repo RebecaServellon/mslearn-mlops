@@ -8,7 +8,6 @@ import mlflow.sklearn
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-import sys
 
 # define functions
 def main(args):
@@ -27,6 +26,7 @@ def main(args):
 
 
 def get_csvs_df(path):
+    print(path)
     if not os.path.exists(path):
         raise RuntimeError(f"Cannot use non-existent path provided: {path}")
     csv_files = glob.glob(f"{path}/*.csv")
@@ -63,13 +63,14 @@ def parse_args():
 
 # run script
 if __name__ == "__main__":
-    print("Command-line arguments:", sys.argv)
     # add space in logs
     print("\n\n")
     print("*" * 60)
 
     # parse args
     args = parse_args()
+
+    print(args)
 
     # run main function
     main(args)
